@@ -1,4 +1,6 @@
 ##最实用的Android适配器，适用用于Recycleview、ListView的运用。
+效果图：
+    ![1](https://github.com/872822645/danxuankuangDemo/blob/master/1.jpg)
 1、引入
     compile 'com.zhy:base-rvadapter:3.0.3'
 2、使用
@@ -16,8 +18,7 @@
     运用这个仿照鸿神封装的Adapter继承CommonAdapter，复写convert方法即可，省去了自己编写ViewHolder等大量的重复的代码。
     a.可以通过holder.getView(id)拿到任何控件。
     b.ViewHolder中封装了大量的常用方法，比如holder.setText(id,text),holder.setOnClickLintener(id,lintener)等，可以的支持使用。
-    效果图：
-    ![1](https://github.com/872822645/danxuankuangDemo/blob/master/1.jpg)
+    
     ##(2).添加HeaderView、FooterView
     mHeaderAndFooterWrapper = new HeaderAndFooterWrapper(mAdapter);
 
